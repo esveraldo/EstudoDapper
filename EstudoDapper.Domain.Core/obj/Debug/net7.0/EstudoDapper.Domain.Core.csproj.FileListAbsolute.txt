@@ -1,0 +1,12 @@
+C:\EstudoDapper\EstudoDapper.Domain.Core\bin\Debug\net7.0\EstudoDapper.Domain.Core.deps.json
+C:\EstudoDapper\EstudoDapper.Domain.Core\bin\Debug\net7.0\EstudoDapper.Domain.Core.dll
+C:\EstudoDapper\EstudoDapper.Domain.Core\bin\Debug\net7.0\EstudoDapper.Domain.Core.pdb
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\EstudoDapper.Domain.Core.csproj.AssemblyReference.cache
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\EstudoDapper.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\EstudoDapper.Domain.Core.AssemblyInfoInputs.cache
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\EstudoDapper.Domain.Core.AssemblyInfo.cs
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\EstudoDapper.Domain.Core.csproj.CoreCompileInputs.cache
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\EstudoDapper.Domain.Core.dll
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\refint\EstudoDapper.Domain.Core.dll
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\EstudoDapper.Domain.Core.pdb
+C:\EstudoDapper\EstudoDapper.Domain.Core\obj\Debug\net7.0\ref\EstudoDapper.Domain.Core.dll

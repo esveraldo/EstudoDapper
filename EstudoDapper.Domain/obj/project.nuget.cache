@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ys7e6je8EDUQyMgaKsfCVC4XF9NYRJtQcqZHeIWtEypXHFtwIQhHWB+BSXHdr5B7XG6tjHwoYSHdCr+JcIFZ3A==",
+  "success": true,
+  "projectFilePath": "C:\\EstudoDapper\\EstudoDapper.Domain\\EstudoDapper.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\esver\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
