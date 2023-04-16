@@ -1,11 +1,6 @@
 ﻿using EstudoDapper.Domain.Core;
 using EstudoDapper.Domain.Validations;
 using FluentValidation.Results;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EstudoDapper.Domain.Entities
 {

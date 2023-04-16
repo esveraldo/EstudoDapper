@@ -1,8 +1,6 @@
 ﻿using EstudoDapper.Application.Commands.Clientes;
 using EstudoDapper.Application.Interfaces;
 using EstudoDapper.Application.Queries.Clientes;
-using EstudoDapper.Domain.Validations;
-using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EstudoDapper.Api.Controllers
