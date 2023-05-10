@@ -2,11 +2,11 @@
 {
     public interface IBaseRepository<TEntity, TKey> : IDisposable where TEntity : class
     {
-        void Create(TEntity tentity);
-        void Update(TEntity tentity);
-        void Delete(TEntity tentity);
-
-        List<TEntity> GetAll();
-        TEntity GetById(TKey id);
+        Task Create(TEntity tentity);
+        Task Update(TEntity tentity);
+        Task Delete(TEntity tentity);
+        Task<List<TEntity>> GetAll();
+        Task<TEntity> GetById(TKey id);
+        int SaveChanges();
     }
 }

@@ -1,12 +1,8 @@
-﻿using EstudoDapper.Application.Commands.Clientes;
-using EstudoDapper.Application.Interfaces;
+﻿using EstudoDapper.Application.Interfaces;
 using EstudoDapper.Application.Services;
-using EstudoDapper.Domain.Entities;
 using EstudoDapper.Domain.Interfaces;
-using EstudoDapper.Domain.Validations;
 using EstudoDapper.Infraesturcture.Data.Contexts;
 using EstudoDapper.Infraesturcture.Data.Repositories;
-using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 namespace EstudoDapper.Api
@@ -20,7 +16,7 @@ namespace EstudoDapper.Api
 
         public static void AddEntityFrameworkServices(this WebApplicationBuilder builder)
         {
-            var connectionString = builder.Configuration.GetConnectionString("BD_EstudoMapper");
+            var connectionString = builder.Configuration.GetConnectionString("EstudoDapper");
             builder.Services.AddDbContext<EntityFrameworkContext>(options => options.UseSqlServer(connectionString));
         }
 
@@ -41,6 +37,11 @@ namespace EstudoDapper.Api
         public static void AddAutoMapperServices(this WebApplicationBuilder builder)
         {
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+        }
+
+        public static void AddDapperContext(this WebApplicationBuilder builder)
+        {
+            builder.Services.AddSingleton<DapperContext>();
         }
     }
 }

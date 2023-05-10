@@ -10,6 +10,9 @@ namespace EstudoDapper.Application.Mappings
         {
             CreateMap<CriarClienteCommand, Cliente>()
                 .AfterMap((command, model) => { model.Id = Guid.NewGuid(); });
+
+            CreateMap<AtualizarClienteCommand, Cliente>();
+
         }
     }
 }

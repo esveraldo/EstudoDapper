@@ -1,4 +1,5 @@
-﻿using EstudoDapper.Domain.Entities;
+﻿using Dapper;
+using EstudoDapper.Domain.Entities;
 using EstudoDapper.Domain.Interfaces;
 using EstudoDapper.Infraesturcture.Data.Contexts;
 

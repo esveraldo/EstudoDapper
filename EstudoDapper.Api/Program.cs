@@ -13,6 +13,7 @@ Setup.AddSwaggerServices(builder);
 Setup.AddEntityFrameworkServices(builder);
 Setup.AddDependencyInjection(builder);
 Setup.AddAutoMapperServices(builder);
+Setup.AddDapperContext(builder);
 
 var app = builder.Build();
 

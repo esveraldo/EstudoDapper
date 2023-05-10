@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0u8w5sjntjYLvUAhLSejojHvzOYD8sQa2JLCu6wqpxLpzaykLTDsymNhj2ZrCbZtuWphUnxkexCABsEIF+yP7A==",
+  "dgSpecHash": "avx0iZrh2V/TC3KOMyZXNoLY5hFQxYHgQCSU3jgqbTXZaAswZ+TYBgwl/y1Au+STIrkOV0qXrmecMWU8qMM0ow==",
   "success": true,
   "projectFilePath": "C:\\EstudoDapper\\EstudoDapper.Infraesturcture\\EstudoDapper.Infraesturcture.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esver\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\esver\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\esver\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\esver\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\esver\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\esver\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

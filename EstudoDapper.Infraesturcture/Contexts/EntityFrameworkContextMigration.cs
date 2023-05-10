@@ -19,7 +19,7 @@ namespace EstudoDapper.Infraesturcture.Data.Contexts
             #region Capturar a connectionstring do arquivo appsettings.json
 
             var root = configurationBuilder.Build();
-            var connectionString = root.GetSection("ConnectionStrings").GetSection("EstudoMapper").Value;
+            var connectionString = root.GetSection("ConnectionStrings").GetSection("EstudoDapper").Value;
 
             #endregion
 

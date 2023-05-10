@@ -1,5 +1,7 @@
 ﻿using EstudoDapper.Domain.Core;
 using EstudoDapper.Infraesturcture.Data.Contexts;
+using Microsoft.EntityFrameworkCore;
+using static Dapper.SqlMapper;
 
 namespace EstudoDapper.Infraesturcture.Data.Repositories
 {
@@ -12,29 +14,35 @@ namespace EstudoDapper.Infraesturcture.Data.Repositories
             _entityFrameworkContext = entityFrameworkContext;
         }
 
-        public List<TEntity> GetAll()
+        public async Task<List<TEntity>> GetAll()
         {
             return _entityFrameworkContext.Set<TEntity>().ToList();
         }
 
-        public TEntity GetById(TKey id)
+        public async Task<TEntity> GetById(TKey id)
         {
+            _entityFrameworkContext.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             return _entityFrameworkContext.Set<TEntity>().Find(id);
         }
 
-        public void Create(TEntity tentity)
+        public async Task Create(TEntity tentity)
         {
-            _entityFrameworkContext.Add(tentity);
+             _entityFrameworkContext.Add(tentity);
         }
 
-        public void Delete(TEntity tentity)
+        public async Task Delete(TEntity tentity)
         {
             _entityFrameworkContext.Remove(tentity);
         }
 
-        public void Update(TEntity tentity)
+        public async Task Update(TEntity tentity)
         {
             _entityFrameworkContext.Update(tentity);
+        }
+
+        public int SaveChanges()
+        {
+            return _entityFrameworkContext.SaveChanges();
         }
 
         public void Dispose()

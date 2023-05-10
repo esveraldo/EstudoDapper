@@ -11,7 +11,7 @@ namespace EstudoDapper.Infraesturcture.Data.Repositories
 
         public UnitOfWork(EntityFrameworkContext entityFrameworkContext)
         {
-            _entityFrameworkContext = entityFrameworkContext;
+            _entityFrameworkContext = entityFrameworkContext; 
         }
 
         public IClienteRepository ClienteRepository => new ClienteRepository(_entityFrameworkContext);
@@ -31,9 +31,10 @@ namespace EstudoDapper.Infraesturcture.Data.Repositories
 
         public void Commit()
         {
-            _dbContextTransaction.Commit();
+            _entityFrameworkContext.SaveChanges();
         }
 
+       
         public void Rollback()
         {
             _dbContextTransaction.Rollback();

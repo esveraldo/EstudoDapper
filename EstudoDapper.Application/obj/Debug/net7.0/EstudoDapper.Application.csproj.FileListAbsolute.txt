@@ -1,8 +1,3 @@
-C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.csproj.AssemblyReference.cache
-C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.AssemblyInfoInputs.cache
-C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.AssemblyInfo.cs
-C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.csproj.CoreCompileInputs.cache
 C:\EstudoDapper\EstudoDapper.Application\bin\Debug\net7.0\EstudoDapper.Application.deps.json
 C:\EstudoDapper\EstudoDapper.Application\bin\Debug\net7.0\EstudoDapper.Application.dll
 C:\EstudoDapper\EstudoDapper.Application\bin\Debug\net7.0\EstudoDapper.Application.pdb
@@ -10,6 +5,11 @@ C:\EstudoDapper\EstudoDapper.Application\bin\Debug\net7.0\EstudoDapper.Domain.Co
 C:\EstudoDapper\EstudoDapper.Application\bin\Debug\net7.0\EstudoDapper.Domain.dll
 C:\EstudoDapper\EstudoDapper.Application\bin\Debug\net7.0\EstudoDapper.Domain.pdb
 C:\EstudoDapper\EstudoDapper.Application\bin\Debug\net7.0\EstudoDapper.Domain.Core.pdb
+C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.csproj.AssemblyReference.cache
+C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.AssemblyInfoInputs.cache
+C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.AssemblyInfo.cs
+C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.csproj.CoreCompileInputs.cache
 C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.csproj.CopyComplete
 C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\EstudoDapper.Application.dll
 C:\EstudoDapper\EstudoDapper.Application\obj\Debug\net7.0\refint\EstudoDapper.Application.dll

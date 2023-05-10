@@ -5,6 +5,10 @@ namespace EstudoDapper.Application.Interfaces
 {
     public interface IClienteAppService : IDisposable
     {
-        ClienteQuery Add(CriarClienteCommand command);
+        Task<List<ClienteQuery>> GetAll();
+        Task<ClienteQuery> GetById(Guid id);
+        Task<ClienteQuery> Add(CriarClienteCommand command);
+        Task<ClienteQuery> Update(AtualizarClienteCommand command);
+        Task<ClienteQuery> Remove(Guid id);
     }
 }

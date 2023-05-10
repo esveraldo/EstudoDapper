@@ -1,0 +1,15 @@
+C:\EstudoDapper\EstudoDapper.Domain\bin\Release\net7.0\EstudoDapper.Domain.deps.json
+C:\EstudoDapper\EstudoDapper.Domain\bin\Release\net7.0\EstudoDapper.Domain.dll
+C:\EstudoDapper\EstudoDapper.Domain\bin\Release\net7.0\EstudoDapper.Domain.pdb
+C:\EstudoDapper\EstudoDapper.Domain\bin\Release\net7.0\EstudoDapper.Domain.Core.dll
+C:\EstudoDapper\EstudoDapper.Domain\bin\Release\net7.0\EstudoDapper.Domain.Core.pdb
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.csproj.AssemblyReference.cache
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.AssemblyInfoInputs.cache
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.AssemblyInfo.cs
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.csproj.CoreCompileInputs.cache
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.csproj.CopyComplete
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.dll
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\refint\EstudoDapper.Domain.dll
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\EstudoDapper.Domain.pdb
+C:\EstudoDapper\EstudoDapper.Domain\obj\Release\net7.0\ref\EstudoDapper.Domain.dll
